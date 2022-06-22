@@ -1,15 +1,13 @@
 # sigident.preproc (!!! currently under development !!!)
 
 <!-- badges: start -->
-[![R CMD Check via {tic}](https://github.com/miracum/clearly-sigident.preproc/workflows/R%20CMD%20Check%20via%20{tic}/badge.svg?branch=master)](https://github.com/miracum/clearly-sigident.preproc/actions)
-[![linting](https://github.com/miracum/clearly-sigident.preproc/workflows/lint/badge.svg?branch=master)](https://github.com/miracum/clearly-sigident.preproc/actions)
-[![test-coverage](https://github.com/miracum/clearly-sigident.preproc/workflows/test-coverage/badge.svg?branch=master)](https://github.com/miracum/clearly-sigident.preproc/actions)
-[![codecov](https://codecov.io/gh/miracum/clearly-sigident.preproc/branch/master/graph/badge.svg)](https://codecov.io/gh/miracum/clearly-sigident.preproc)
-[![pipeline status](https://gitlab.miracum.org/clearly/sigident.preproc/badges/master/pipeline.svg)](https://gitlab.miracum.org/clearly/sigident.preproc/commits/master)
-[![coverage report](https://gitlab.miracum.org/clearly/sigident.preproc/badges/master/coverage.svg)](https://gitlab.miracum.org/clearly/sigident.preproc/commits/master)
+[![R CMD Check via {tic}](https://github.com/kapsner/sigident.preproc/workflows/R%20CMD%20Check%20via%20{tic}/badge.svg?branch=master)](https://github.com/kapsner/sigident.preproc/actions)
+[![linting](https://github.com/kapsner/sigident.preproc/workflows/lint/badge.svg?branch=master)](https://github.com/kapsner/sigident.preproc/actions)
+[![test-coverage](https://github.com/kapsner/sigident.preproc/workflows/test-coverage/badge.svg?branch=master)](https://github.com/kapsner/sigident.preproc/actions)
+[![codecov](https://codecov.io/gh/kapsner/sigident.preproc/branch/master/graph/badge.svg)](https://codecov.io/gh/kapsner/sigident.preproc)
 <!-- badges: end -->
 
-This is the repository of the R package `sigident.preproc`. It provides data preprocessing functionalities in order to preprare datasets for further usage with the `sigident` R package: [https://github.com/miracum/clearly-sigident](https://github.com/miracum/clearly-sigident)
+This is the repository of the R package `sigident.preproc`. It provides data preprocessing functionalities in order to preprare datasets for further usage with the `sigident` R package: [https://github.com/kapsner/sigident](https://github.com/kapsner/sigident)
 
 # Overview 
 
@@ -30,8 +28,8 @@ Currently supported input file formats are:
 You can install *sigident.preproc* with the following commands in R:
 
 ``` r
-install.packages("devtools")
-devtools::install_github("miracum/clearly-sigident.preproc")
+install.packages("remotes")
+remotes::install_github("kapsner/sigident.preproc")
 ```
 
 # Example: download datasets from GEO
