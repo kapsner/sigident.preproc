@@ -132,3 +132,4 @@ usethis::use_git_ignore("!/.lintr")
 
 # lint package
 #lintr::lint_package()
+badger::badge_doi("10.3390/cancers11101606", color = "yellow")
